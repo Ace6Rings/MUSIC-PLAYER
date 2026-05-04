@@ -507,7 +507,7 @@
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "",
+      "netlist": "../../Downloads/Music-player.net",
       "plot": "",
       "specctra_dsn": "",
       "vrml": ""
@@ -632,7 +632,7 @@
         "uuid": "f98d3056-e9c6-4dc5-a080-338d8b2650d2"
       }
     ],
-    "used_designators": "R3-12,J2-3,D1-5,L2-3,L5,#PWR9-23,C9,C11,C14-32,U4-5,SW1-2,Q1-2,Y1",
+    "used_designators": "L1-4,D1-4,#PWR1-24,C1-33,R1-12,J1-3,Q1-2,SW1-7,U1-5,Y1-2",
     "variants": []
   },
   "sheets": [
