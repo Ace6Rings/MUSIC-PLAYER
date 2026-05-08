@@ -8628,7 +8628,7 @@
 		)
 		(uuid "1c33af22-05b2-45c4-933f-bef3baacba10")
 	)
-	(text "C28\nSST7789\n"
+	(text "C28\nST7789\n"
 		(exclude_from_sim no)
 		(at 260.35 115.57 0)
 		(effects
@@ -9238,6 +9238,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bd8dd26-122d-469a-9546-d6537d8f9a77")
+	)
+	(junction
+		(at 363.22 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d4d8716-dce2-45bf-afe7-5f2e35574be0")
 	)
 	(junction
 		(at 335.28 91.44)
@@ -10371,6 +10377,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 81.28) (xy 363.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6ed19f-2900-4c4b-89cd-6a016317ed12")
+	)
+	(wire
+		(pts
 			(xy 383.54 45.72) (xy 383.54 66.04)
 		)
 		(stroke
@@ -10468,6 +10484,16 @@
 			(type default)
 		)
 		(uuid "36663d8d-29bb-406d-ac0e-b05252fde0ab")
+	)
+	(wire
+		(pts
+			(xy 368.3 73.66) (xy 368.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36899212-892d-4ca1-8b70-6109a0f1b4c7")
 	)
 	(wire
 		(pts
@@ -10831,7 +10857,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 81.28) (xy 381 81.28)
+			(xy 356.87 81.28) (xy 363.22 81.28)
 		)
 		(stroke
 			(width 0)
@@ -11531,6 +11557,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 81.28) (xy 381 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f54aa4-89d4-46a1-91da-57461f504130")
+	)
+	(wire
+		(pts
 			(xy 304.8 113.03) (xy 311.15 113.03)
 		)
 		(stroke
@@ -11671,7 +11707,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 20.32) (xy 389.89 20.32)
+			(xy 379.73 20.32) (xy 389.89 20.32)
 		)
 		(stroke
 			(width 0)
@@ -12168,6 +12204,16 @@
 			(type default)
 		)
 		(uuid "b660ed28-ed06-4298-a8b9-f54acf389c92")
+	)
+	(wire
+		(pts
+			(xy 363.22 76.2) (xy 355.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b672ea30-9684-4e88-a068-21a7ecb167e6")
 	)
 	(wire
 		(pts
@@ -13071,6 +13117,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 72.39) (xy 358.14 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f606ecfb-f5c2-43da-828c-bfb1cb91d0a6")
+	)
+	(wire
+		(pts
 			(xy 163.83 128.27) (xy 152.4 128.27)
 		)
 		(stroke
@@ -13429,6 +13485,16 @@
 		)
 		(uuid "39c8f87e-51f9-40bd-9e12-f426d7d91297")
 	)
+	(label "USB_GATE"
+		(at 355.6 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a35add9-6494-467f-baf2-f9de7593aae7")
+	)
 	(label "EC11_A"
 		(at 185.42 80.01 0)
 		(effects
@@ -13478,6 +13544,16 @@
 			(justify right bottom)
 		)
 		(uuid "45cc4d3d-dab0-4ba3-8821-69feb966ad23")
+	)
+	(label "CHARGING"
+		(at 358.14 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "485aae87-50a4-4f2f-90a2-3fb2105203ab")
 	)
 	(label "SWDIO"
 		(at 77.47 77.47 0)
@@ -13699,7 +13775,7 @@
 		)
 		(uuid "931b31c7-f1f5-4ac8-ac79-6b28131cfd03")
 	)
-	(label "VBAT"
+	(label "USB_GATE"
 		(at 398.78 102.87 180)
 		(effects
 			(font
@@ -13889,8 +13965,8 @@
 		)
 		(uuid "bf3dcb81-d931-4e61-af9b-46fc181735d6")
 	)
-	(label "VBAT"
-		(at 384.81 20.32 0)
+	(label "USB_GATE"
+		(at 379.73 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15693,6 +15769,92 @@
 			(project "Music-player"
 				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMG2301L")
+		(at 368.3 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26c3cdc1-53a7-41ec-b1db-39af34ebfdf7")
+		(property "Reference" "Q3"
+			(at 368.3 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMG2301L"
+			(at 368.3 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 366.395 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf"
+			(at 364.49 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-3A Id, -20V Vds, P-Channel MOSFET, SOT-23"
+			(at 368.3 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49b2d957-8da1-418a-91bd-9aff380d6a07")
+		)
+		(pin "3"
+			(uuid "04658fb5-ba61-4712-a670-24bad0728e78")
+		)
+		(pin "2"
+			(uuid "b69ea150-8abd-4b94-b936-893ce390d19d")
+		)
+		(instances
+			(project "Music-player"
+				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
