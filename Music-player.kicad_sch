@@ -8839,6 +8839,16 @@
 		)
 		(uuid "ab8a488f-9a37-4e5c-a3c6-24a1bb0358d8")
 	)
+	(text "NET INTENTIONALLY SWAPPED\nCOMPENSATE IN SOFTWARE"
+		(exclude_from_sim no)
+		(at 199.898 218.44 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "b2a3aade-e859-4657-96ea-0c3911fcff36")
+	)
 	(text "C27\nE1\n"
 		(exclude_from_sim no)
 		(at 254 115.57 0)
@@ -12707,16 +12717,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 232.41) (xy 378.46 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d91c3231-ab40-493c-b066-f2f21a0994b7")
-	)
-	(wire
-		(pts
 			(xy 384.81 158.75) (xy 392.43 158.75)
 		)
 		(stroke
@@ -13336,7 +13336,7 @@
 		(uuid "21563d8a-5745-4cf9-b05b-a6fb0f470d64")
 	)
 	(label "PCM_OUTR"
-		(at 177.8 214.63 0)
+		(at 177.8 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13606,7 +13606,7 @@
 		(uuid "5214dda8-a4d3-4d6d-800a-b7658b68b59f")
 	)
 	(label "PCM_OUTL"
-		(at 177.8 205.74 0)
+		(at 177.8 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16680,6 +16680,7 @@
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
 		(at 200.66 82.55 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16687,7 +16688,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34aae5cc-a7bc-4ded-9bb8-0a37c1724066")
 		(property "Reference" "SW6"
 			(at 200.66 72.39 0)
@@ -16710,7 +16710,7 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
-			(at 196.85 78.486 0)
+			(at 204.47 78.486 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22442,7 +22442,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 378.46 231.14 0)
+		(at 378.46 232.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22453,7 +22453,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8da0988-313d-42da-bafb-2362cc9d870f")
 		(property "Reference" "#PWR026"
-			(at 378.46 237.49 0)
+			(at 378.46 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22464,7 +22464,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 378.46 236.22 0)
+			(at 378.46 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22475,7 +22475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 378.46 231.14 0)
+			(at 378.46 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22486,7 +22486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 378.46 231.14 0)
+			(at 378.46 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22497,7 +22497,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 378.46 231.14 0)
+			(at 378.46 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
