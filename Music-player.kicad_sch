@@ -8638,7 +8638,7 @@
 		)
 		(uuid "1ebb27eb-ddea-41a7-8024-613c25b7678d")
 	)
-	(text "SST7789 SCREEN\n"
+	(text "ST7789 SCREEN\n"
 		(exclude_from_sim no)
 		(at 369.57 178.308 0)
 		(effects
@@ -9112,6 +9112,12 @@
 		(uuid "2606e162-5a8f-4ac3-951e-adec82b53bff")
 	)
 	(junction
+		(at 67.31 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27a17e0b-285b-499c-ac3f-d641338eed91")
+	)
+	(junction
 		(at 181.61 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9376,6 +9382,12 @@
 		(uuid "7bd329d3-1bec-4470-8e2c-c6aab23ea17a")
 	)
 	(junction
+		(at 80.01 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d6c67a9-d036-417a-a176-eae5f2a16e35")
+	)
+	(junction
 		(at 254 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9434,6 +9446,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c638107-53da-4fc0-8ecf-64c95030761c")
+	)
+	(junction
+		(at 86.36 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f213745-37f1-44fb-b0d9-318722ae2759")
 	)
 	(junction
 		(at 209.55 105.41)
@@ -9698,6 +9716,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efe690d4-e97b-460b-9b2a-d008c59dbde5")
+	)
+	(junction
+		(at 73.66 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0a00259-87aa-43fa-8414-d3cd487cc3df")
 	)
 	(junction
 		(at 222.25 187.96)
@@ -10777,6 +10801,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 201.93) (xy 73.66 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d60a7f3-aaaf-4bf8-a6ce-8ab7785a4a52")
+	)
+	(wire
+		(pts
 			(xy 302.26 83.82) (xy 302.26 86.36)
 		)
 		(stroke
@@ -11324,6 +11358,16 @@
 			(type default)
 		)
 		(uuid "73e10a4a-7b2e-46d1-a97b-2fcea70b8c91")
+	)
+	(wire
+		(pts
+			(xy 80.01 207.01) (xy 86.36 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7558b14f-4e08-4700-b078-f6267e6032b0")
 	)
 	(wire
 		(pts
@@ -12977,6 +13021,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 201.93) (xy 67.31 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea059fa5-0ec2-4062-8a53-5d7f5b9b4f3a")
+	)
+	(wire
+		(pts
 			(xy 302.26 91.44) (xy 312.42 91.44)
 		)
 		(stroke
@@ -13157,7 +13211,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 199.39) (xy 67.31 204.47)
+			(xy 67.31 199.39) (xy 67.31 201.93)
 		)
 		(stroke
 			(width 0)
@@ -16775,7 +16829,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "360edfa7-60e0-4937-b5e3-a5b1e26a8978")
 		(property "Reference" "C23"
 			(at 228.6 107.442 0)
@@ -18430,7 +18484,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4ad4ae4a-7b33-425e-9f65-987e1373adca")
 		(property "Reference" "C25"
 			(at 241.3 107.442 0)
@@ -19146,7 +19200,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5d510d41-d0a5-411f-993a-579196bb3297")
 		(property "Reference" "C5"
 			(at 73.914 207.772 0)
@@ -21408,7 +21462,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8fdf95d7-549d-4ce8-b952-041d814db648")
 		(property "Reference" "C4"
 			(at 86.614 210.058 0)
@@ -23572,7 +23626,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MU00525-32-768K"
+		(property "Value" "Seiko SC-20S"
 			(at 149.86 35.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23583,7 +23637,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
 			(at 147.32 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -24458,7 +24512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ECS-320-8-37B-CKY-TR"
+		(property "Value" "TXC 8Q32000002"
 			(at 145.542 22.606 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24469,7 +24523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "MyFootprintLibrary:XTAL_8Q-32.000MEEV-T"
 			(at 147.32 26.67 0)
 			(hide yes)
 			(show_name no)
