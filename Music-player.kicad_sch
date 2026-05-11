@@ -1391,6 +1391,289 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(hide yes)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Crystal_Small"
 			(pin_numbers
 				(hide yes)
@@ -10282,6 +10565,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 21.59) (xy 147.32 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21385dd1-ce13-4026-a6c9-ecd09509e132")
+	)
+	(wire
+		(pts
 			(xy 215.9 240.03) (xy 220.98 240.03)
 		)
 		(stroke
@@ -11052,7 +11345,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 36.83) (xy 147.32 36.83)
+			(xy 140.97 40.64) (xy 147.32 40.64)
 		)
 		(stroke
 			(width 0)
@@ -11192,7 +11485,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 29.21) (xy 147.32 29.21)
+			(xy 140.97 31.75) (xy 147.32 31.75)
 		)
 		(stroke
 			(width 0)
@@ -11362,7 +11655,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 24.13) (xy 147.32 24.13)
+			(xy 140.97 21.59) (xy 147.32 21.59)
 		)
 		(stroke
 			(width 0)
@@ -11379,6 +11672,16 @@
 			(type default)
 		)
 		(uuid "6f128a43-09fb-4ff0-8ab2-ca4935e09959")
+	)
+	(wire
+		(pts
+			(xy 139.7 26.67) (xy 142.24 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa2de0c-0ba2-427f-9243-984733bd8fd3")
 	)
 	(wire
 		(pts
@@ -11952,6 +12255,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 31.75) (xy 147.32 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957d701c-d0e3-4aa5-b8a5-5eaa0bdcbeb8")
+	)
+	(wire
+		(pts
 			(xy 254 105.41) (xy 260.35 105.41)
 		)
 		(stroke
@@ -12172,7 +12485,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 31.75) (xy 147.32 31.75)
+			(xy 140.97 35.56) (xy 147.32 35.56)
 		)
 		(stroke
 			(width 0)
@@ -13431,7 +13744,7 @@
 		(uuid "02d37cbc-d134-427c-b8cc-63dc4d8e3d43")
 	)
 	(label "XC2"
-		(at 140.97 29.21 0)
+		(at 140.97 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13441,7 +13754,7 @@
 		(uuid "03a93468-3598-4fe4-a995-91aea7b049e5")
 	)
 	(label "DC"
-		(at 163.83 173.99 180)
+		(at 163.83 191.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13471,7 +13784,7 @@
 		(uuid "106235a4-c92f-4adc-92a7-a063ffc557da")
 	)
 	(label "XL1"
-		(at 140.97 31.75 0)
+		(at 140.97 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13551,7 +13864,7 @@
 		(uuid "29f0d2bc-59ee-4f30-82c9-41a8d06afd95")
 	)
 	(label "EC11_A"
-		(at 163.83 191.77 180)
+		(at 163.83 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13731,7 +14044,7 @@
 		(uuid "4202269b-6b56-491a-8c9f-58a87e2f4021")
 	)
 	(label "RES"
-		(at 163.83 148.59 180)
+		(at 163.83 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14031,7 +14344,7 @@
 		(uuid "9839caf0-1f03-430e-bca7-cf501f93e4e7")
 	)
 	(label "XL2"
-		(at 140.97 36.83 0)
+		(at 140.97 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14091,7 +14404,7 @@
 		(uuid "a426e57c-4335-45c9-9319-f9ba6084b31b")
 	)
 	(label "XC1"
-		(at 140.97 24.13 0)
+		(at 140.97 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21611,6 +21924,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 139.7 26.67 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f8bcc22-7696-4c08-aa50-3e5e9532b57f")
+		(property "Reference" "#PWR034"
+			(at 139.7 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80b375e6-4771-4232-aaa9-4a1e71c7aa76")
+		)
+		(instances
+			(project "Music-player"
+				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 86.36 212.09 0)
 		(unit 1)
@@ -23762,7 +24154,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_Small")
-		(at 147.32 34.29 90)
+		(at 147.32 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23773,7 +24165,7 @@
 		(fields_autoplaced yes)
 		(uuid "c55a76ac-135c-4835-830a-ccc2439c07dc")
 		(property "Reference" "Y1"
-			(at 149.86 33.0199 90)
+			(at 149.86 36.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23784,7 +24176,7 @@
 			)
 		)
 		(property "Value" "Seiko SC-20S"
-			(at 149.86 35.5599 90)
+			(at 149.86 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23795,7 +24187,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
-			(at 147.32 34.29 0)
+			(at 147.32 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23806,7 +24198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 34.29 0)
+			(at 147.32 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23817,7 +24209,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal, small symbol"
-			(at 147.32 34.29 0)
+			(at 147.32 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24648,87 +25040,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_Small")
-		(at 147.32 26.67 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d5fda5ce-546b-49f2-b452-499b2da082fa")
-		(property "Reference" "Y2"
-			(at 149.86 25.3999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TXC 8Q32000002"
-			(at 145.542 22.606 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyFootprintLibrary:XTAL_8Q-32.000MEEV-T"
-			(at 147.32 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Two pin crystal, small symbol"
-			(at 147.32 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "31beaaaf-8380-413a-9da8-f64c0ee6468c")
-		)
-		(pin "1"
-			(uuid "028dadac-6c74-4564-b882-58ee6a4b2ed0")
-		)
-		(instances
-			(project "Music-player"
-				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 247.65 246.38 0)
 		(unit 1)
@@ -25448,6 +25759,116 @@
 			(project "Music-player"
 				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 147.32 26.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecafaca3-5400-4b57-9f01-2c8fbaf5f8b5")
+		(property "Reference" "Y2"
+			(at 152.4 25.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TXC 8Q32000002"
+			(at 152.4 27.9399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "myotherkicadfootprintlibrary:XTAL_8Q-32.000MEEV-T"
+			(at 147.32 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 147.32 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+			(at 134.62 26.67 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+			(at 132.08 26.67 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f84ef49-5de7-48dc-8606-58c70a0a8d9d")
+		)
+		(pin "3"
+			(uuid "f9376713-94ad-452f-ba8c-c33097fa666a")
+		)
+		(pin "1"
+			(uuid "dba43c67-361f-4280-9c04-a31d76e7a336")
+		)
+		(pin "4"
+			(uuid "1b2c1363-8070-40ac-9c68-97bcaf8d430a")
+		)
+		(instances
+			(project "Music-player"
+				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
