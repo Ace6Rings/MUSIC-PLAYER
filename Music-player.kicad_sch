@@ -13754,7 +13754,7 @@
 		(uuid "03a93468-3598-4fe4-a995-91aea7b049e5")
 	)
 	(label "DC"
-		(at 163.83 191.77 180)
+		(at 163.83 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14044,7 +14044,7 @@
 		(uuid "4202269b-6b56-491a-8c9f-58a87e2f4021")
 	)
 	(label "RES"
-		(at 163.83 173.99 180)
+		(at 163.83 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14324,7 +14324,7 @@
 		(uuid "9760eda5-1519-4336-97a0-2f44b4171a48")
 	)
 	(label "BLK"
-		(at 163.83 135.89 180)
+		(at 163.83 191.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14454,7 +14454,7 @@
 		(uuid "b6630e07-a010-4d56-bf06-792f2f9e86af")
 	)
 	(label "SST_CS"
-		(at 163.83 179.07 180)
+		(at 163.83 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18153,7 +18153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 123.19 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -18235,7 +18235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 72.39 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -19456,7 +19456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 74.6252 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -25787,7 +25787,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXC 8Q32000002"
+		(property "Value" "NX2016SA-CS06654"
 			(at 152.4 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25798,7 +25798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "myotherkicadfootprintlibrary:XTAL_8Q-32.000MEEV-T"
+		(property "Footprint" "MyFootprintLibrary:NX2016SA_NDK"
 			(at 147.32 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -26463,7 +26463,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 72.39 161.29 0)
 			(hide yes)
 			(show_name no)
