@@ -9520,12 +9520,6 @@
 		(uuid "7bd329d3-1bec-4470-8e2c-c6aab23ea17a")
 	)
 	(junction
-		(at 80.01 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d6c67a9-d036-417a-a176-eae5f2a16e35")
-	)
-	(junction
 		(at 72.39 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9578,12 +9572,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c638107-53da-4fc0-8ecf-64c95030761c")
-	)
-	(junction
-		(at 86.36 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f213745-37f1-44fb-b0d9-318722ae2759")
 	)
 	(junction
 		(at 209.55 105.41)
@@ -11560,16 +11548,6 @@
 			(type default)
 		)
 		(uuid "73e10a4a-7b2e-46d1-a97b-2fcea70b8c91")
-	)
-	(wire
-		(pts
-			(xy 80.01 207.01) (xy 86.36 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7558b14f-4e08-4700-b078-f6267e6032b0")
 	)
 	(wire
 		(pts
@@ -16846,7 +16824,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "360edfa7-60e0-4937-b5e3-a5b1e26a8978")
 		(property "Reference" "C23"
 			(at 228.6 107.442 0)
@@ -21408,7 +21386,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "8fdf95d7-549d-4ce8-b952-041d814db648")
 		(property "Reference" "C4"
 			(at 86.614 210.058 0)
