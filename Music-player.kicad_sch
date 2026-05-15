@@ -9434,6 +9434,12 @@
 		(uuid "5f42bee9-9186-4695-b036-ddd3a030c01b")
 	)
 	(junction
+		(at 184.15 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62fef7ef-1ad4-4e7a-bcb4-734874f79595")
+	)
+	(junction
 		(at 279.4 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9518,6 +9524,12 @@
 		(uuid "748e26ba-38b3-48f0-9885-07300844da2a")
 	)
 	(junction
+		(at 184.15 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "784a72d5-b7e3-43b4-861c-dbecd9dc5089")
+	)
+	(junction
 		(at 73.66 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9534,6 +9546,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bd329d3-1bec-4470-8e2c-c6aab23ea17a")
+	)
+	(junction
+		(at 196.85 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8176260a-fc56-4c3b-8ad9-ebe506b38bea")
 	)
 	(junction
 		(at 72.39 156.21)
@@ -9656,6 +9674,12 @@
 		(uuid "a8060042-e0fb-43cf-9619-0a0acee6c7ff")
 	)
 	(junction
+		(at 196.85 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9158ba5-351a-40b9-b48f-5eb0326ff08b")
+	)
+	(junction
 		(at 190.5 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9762,6 +9786,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca5899ba-6e13-4e83-bd22-a6f0b1b834c0")
+	)
+	(junction
+		(at 190.5 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb7db2ed-6232-4295-bf22-09dfcda4727f")
 	)
 	(junction
 		(at 196.85 105.41)
@@ -9912,6 +9942,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fee887f4-0a75-48f0-a265-a2fe5dc61e39")
+	)
+	(junction
+		(at 190.5 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fffef038-a997-4ff0-bf2d-5e1b0109d40c")
 	)
 	(no_connect
 		(at 284.48 252.73)
@@ -10110,6 +10146,16 @@
 			(type default)
 		)
 		(uuid "095b10ee-f6ba-469f-8386-aaeee9d61326")
+	)
+	(wire
+		(pts
+			(xy 196.85 134.62) (xy 201.93 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096a2ac6-5e5d-4a0a-875a-7f321322c4f1")
 	)
 	(wire
 		(pts
@@ -10863,6 +10909,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 127) (xy 201.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46882561-7c92-4ada-8fd4-779f3f189726")
+	)
+	(wire
+		(pts
 			(xy 349.25 66.04) (xy 356.87 66.04)
 		)
 		(stroke
@@ -10890,6 +10946,16 @@
 			(type default)
 		)
 		(uuid "484f2583-3b27-4965-9d82-28ba59e2c8ff")
+	)
+	(wire
+		(pts
+			(xy 177.8 127) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b18a55-09df-4db8-94e8-24db2fed4e8d")
 	)
 	(wire
 		(pts
@@ -11113,6 +11179,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 134.62) (xy 196.85 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a0c8e9-dcd6-4772-a810-9e1a68a30f6b")
+	)
+	(wire
+		(pts
 			(xy 292.1 105.41) (xy 298.45 105.41)
 		)
 		(stroke
@@ -11210,6 +11286,16 @@
 			(type default)
 		)
 		(uuid "5ff7254d-b934-40e9-8ae5-b2a1fe93a043")
+	)
+	(wire
+		(pts
+			(xy 190.5 127) (xy 196.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60da480b-f01b-44e8-9e00-17df27aabc6c")
 	)
 	(wire
 		(pts
@@ -11933,6 +12019,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 127) (xy 190.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d98c377-bfdc-45f1-aa14-4f9dc52bb809")
+	)
+	(wire
+		(pts
 			(xy 157.48 247.65) (xy 157.48 246.38)
 		)
 		(stroke
@@ -12020,6 +12116,16 @@
 			(type default)
 		)
 		(uuid "90e9d4b3-9535-4148-87a8-dc82dd677d0f")
+	)
+	(wire
+		(pts
+			(xy 177.8 134.62) (xy 184.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e561c8-1638-4a7b-8902-05211d6c00ac")
 	)
 	(wire
 		(pts
@@ -12340,6 +12446,16 @@
 			(type default)
 		)
 		(uuid "ac2b3750-3f16-4f7c-95da-8d1ed60fb04b")
+	)
+	(wire
+		(pts
+			(xy 184.15 134.62) (xy 190.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acaf439c-7493-4ce7-b244-cd63e3fe39a6")
 	)
 	(wire
 		(pts
@@ -16051,6 +16167,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 201.93 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24ff25d7-23b7-433f-9e41-38a144d08717")
+		(property "Reference" "#PWR029"
+			(at 201.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 204.978 126.492 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 201.93 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd1a0527-5836-4741-a0ab-46a423c59d5d")
+		)
+		(instances
+			(project "Music-player"
+				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:DMG2301L")
 		(at 368.3 78.74 270)
 		(unit 1)
@@ -16615,6 +16808,84 @@
 			(project "Music-player"
 				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b4b6046-c3dd-4c44-9035-9beb0f439057")
+		(property "Reference" "#PWR08"
+			(at 201.93 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3155338-09d6-45ad-b0b0-5243cba26d2c")
+		)
+		(instances
+			(project "Music-player"
+				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -20205,6 +20476,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 177.8 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77b92acb-7ab7-4422-8abc-eefe48370f86")
+		(property "Reference" "C56"
+			(at 177.8 129.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 177.8 132.842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 178.7652 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a049040-8932-43fe-a094-e30d7ff76811")
+		)
+		(pin "2"
+			(uuid "b369f40b-e106-4c07-9282-eb4995f76866")
+		)
+		(instances
+			(project "Music-player"
+				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "MCP73831-2-OT_1")
 		(lib_id "Battery_Management:MCP73831-2-OT")
 		(at 377.19 113.03 0)
@@ -21761,6 +22113,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 184.15 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ba5c129-eb76-4baa-8b34-364d85387912")
+		(property "Reference" "C57"
+			(at 184.15 129.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 184.15 132.842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 185.1152 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55fa6a5e-ff46-4521-9cb7-39f5e3e60e53")
+		)
+		(pin "2"
+			(uuid "8df313d1-a846-49cc-ab62-53aa226c1ba5")
+		)
+		(instances
+			(project "Music-player"
+				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 387.35 118.11 0)
 		(unit 1)
@@ -23102,6 +23535,87 @@
 			(project "Music-player"
 				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5fe22fb-3ec8-4c48-a2f3-19454b6f3976")
+		(property "Reference" "C59"
+			(at 196.85 129.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 196.85 132.842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 197.8152 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00e3ae55-2a2b-4874-bdba-2ee066fd265a")
+		)
+		(pin "2"
+			(uuid "0e2d7eaa-846f-465a-9cf3-b19f794bf56a")
+		)
+		(instances
+			(project "Music-player"
+				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -25156,7 +25670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MyFootprintLibrary:NX2016SA_NDK"
+		(property "Footprint" "myotherkicadfootprintlibrary:NX2016SA_NDK"
 			(at 147.32 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -25227,6 +25741,87 @@
 			(project "Music-player"
 				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
 					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 190.5 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eeccef10-5465-4b14-8f8f-b89ee559a42e")
+		(property "Reference" "C58"
+			(at 190.5 129.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 190.5 132.842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 191.4652 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 190.5 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12ee2267-2b87-419e-873b-52cb1fed9c0a")
+		)
+		(pin "2"
+			(uuid "4a2e343c-52d6-4b10-8b58-bc916dc48491")
+		)
+		(instances
+			(project "Music-player"
+				(path "/f98d3056-e9c6-4dc5-a080-338d8b2650d2"
+					(reference "C58")
 					(unit 1)
 				)
 			)
