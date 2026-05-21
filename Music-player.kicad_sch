@@ -15234,7 +15234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S8B-PH-K_1x08_P2.00mm_Horizontal"
 			(at 374.65 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -21260,7 +21260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S9B-PH-K_1x09_P2.00mm_Horizontal"
 			(at 233.68 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -24987,7 +24987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 232.41 81.28 0)
 			(hide yes)
 			(show_name no)
