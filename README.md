@@ -37,6 +37,7 @@ I have 2 layers of protection.
   Additionally, I used the PRTR5V0U2X. It is a tvs diode which can prevent damage to the usbc and the board if something goes horribly wrong.
 
 The rest of the electronics can be found in the electronics subdirectory. You can also find the production files there too.
+<img width="2547" height="3296" alt="step 1 (2)" src="https://github.com/user-attachments/assets/80affd2f-d546-4a83-a986-221c5e95ff83" />
 
 # Mechanical
 
