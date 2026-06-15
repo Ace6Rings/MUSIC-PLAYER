@@ -1,6 +1,6 @@
+<img width="1410" height="2000" alt="Noir Music Player" src="https://github.com/user-attachments/assets/541e81d6-bcfe-49a3-bd79-0188fa3c3cb7" />
 # NOIR MUSIC PLAYER
 
-<img width="2547" height="3296" alt="FINAL ASSEMBLY (1) (1)" src="https://github.com/user-attachments/assets/ad429f9a-fe4f-466c-a10e-2c4053002d3a" />
 
 # Why?
 
