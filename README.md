@@ -65,6 +65,8 @@ The backend of the code is built entirely by NORDIC, the company behind the NRF 
 
 The GUI is a WIP. I will do it after the PCB arrives so I can mess around with the settings. As of right now, only audio playing is implemented.
 
+NOTE THAT THE FILE IS ZIPPED BECAUSE ITS CMAKE AND THERES ALOT OF FILES. OPEN WITH VS CODE AND HAVE THE NRF CONNECT EXTENSION INSTALLED. DISABLE CMAKE!
+
 # Process
 
 So what exactly is under the hood? Its a big schematic, so there is going to be 3 images.
@@ -85,7 +87,13 @@ There is a headphone jack, and that is where you're going to plug in your headph
 
 ## PCB
 
+If you've already opened the PCB file, then you might've been confused or bamboozled by how messy it is. But it really isn't!<img width="868" height="842" alt="Screenshot 2026-06-15 015645" src="https://github.com/user-attachments/assets/a704d118-cceb-44bb-aa6b-71af2517713b" />
 
+This is what it is supposed to look like without user drawings (i used them to align things but never deleted them so I remember how much pain I went through).
+
+Everything that needed to be said is already said in the features subtitle, but as an addendum, I added a cool snowman.
+
+<img width="853" height="809" alt="Screenshot 2026-06-15 020002" src="https://github.com/user-attachments/assets/c86e1205-e964-4578-aba0-959c56c8d3b3" />
 
 
 
