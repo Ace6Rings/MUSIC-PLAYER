@@ -97,11 +97,8 @@ Everything that needed to be said is already said in the features subtitle, but 
 
 
 
-
-
-
-
-
+# How to use
+Well how do you use it? I don't really know to be honest. The code is rudimentary and will be improved upon when I get my parts. As of right now, the controls are simple. The four buttons indicate direction, the center button indicates selection, and the rotary encoder is for volume up down and also a faster way to navigate the (future) gui.
 
 
 
