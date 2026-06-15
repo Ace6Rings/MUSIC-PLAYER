@@ -16,7 +16,7 @@ They either have a very short battery life or they don't support bluetooth. This
   -High quality wired and wireless audio
   -Extremely high battery life (not tested)
 
-# Electronics
+## Electronics
 
 So what about my electronics makes these features possible?
 
@@ -40,7 +40,7 @@ I have 2 layers of protection.
 The rest of the electronics can be found in the electronics subdirectory. You can also find the production files there too.
 <img width="2547" height="3296" alt="step 1 (2)" src="https://github.com/user-attachments/assets/80affd2f-d546-4a83-a986-221c5e95ff83" />
 
-# Mechanical
+## Mechanical
 
 The case of the music player is largely modeled after the Iphone 16 pro's dimensions. It is a reasonable size for a mp3 player and is also the reason why I can fit such a big battery.
 
@@ -59,11 +59,46 @@ And this is the after.
 Pretty much the same right? this means that my design is sound and could be used (as long as the user isn't a brute)
 
 
-# Code
+## Code
 
 The backend of the code is built entirely by NORDIC, the company behind the NRF chips. I used their existing audio code so that I don't need to code my own (they have tens of thousands of lines of code)
 
 The GUI is a WIP. I will do it after the PCB arrives so I can mess around with the settings. As of right now, only audio playing is implemented.
+
+# Process
+
+So what exactly is under the hood? Its a big schematic, so there is going to be 3 images.
+
+## Schematic
+<img width="666" height="768" alt="Screenshot 2026-06-15 014447" src="https://github.com/user-attachments/assets/e53255e0-f588-4083-b6ab-2e9ef2707e47" />
+
+As you can see, I'm using the NRF 5340 to power this project. Is there really much to say about this as of right now? Not really.
+
+<img width="1357" height="859" alt="Screenshot 2026-06-15 014500" src="https://github.com/user-attachments/assets/0d645e0f-e1ef-4bf4-a741-b4e2542f03dc" />
+
+In this image, we can see that I'm using the TPA and PCM. These components work together to make wired audio great (hopefully). On the user side, you don't have to worry about this.
+There is a headphone jack, and that is where you're going to plug in your headphones.
+
+<img width="1332" height="538" alt="Screenshot 2026-06-15 014512" src="https://github.com/user-attachments/assets/9844b2d3-f0ab-4e89-8b44-00d0ce8152ea" />
+
+(yeah i don't know what to say about the schematic, I guess its cool?)
+
+## PCB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # BOM
 
