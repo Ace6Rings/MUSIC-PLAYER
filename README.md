@@ -10,24 +10,24 @@ They either have a very short battery life or they don't support bluetooth. This
 
 # Features
 
-  -expandable storage via micro sd card
-  -bluetooth range of ~100 meters in open air
-  -Dual compatibility with both wired and wireless. 
-  -High quality wired and wireless audio
-  -Extremely high battery life (not tested)
+  - expandable storage via micro sd card
+  - bluetooth range of ~100 meters in open air
+  - Dual compatibility with both wired and wireless. 
+  - High quality wired and wireless audio
+  - Extremely high battery life (not tested)
 
 ## Electronics
 
 So what about my electronics makes these features possible?
 
 I use the NRF5430 <br>
-  -The NRF5430 is a dual core chip that have the capability of being hyper efficient during its operation. <br>
-  -Its power consumption is measured in the microamps during sleep mode and miliamps during full operation.
+  - The NRF5430 is a dual core chip that have the capability of being hyper efficient during its operation. <br>
+  - Its power consumption is measured in the microamps during sleep mode and miliamps during full operation.
 
 The PCM5102A and the TPA6132A2RTE <br>
-  -the audio from common microcontrollers are low quality and unenjoyable for music. So I used the PCM5102A. It is a high quality DAC which will be wired to the TPA6132ARTE. <br>
-  -the TPA6132ARTE increases the volume of the sound and also helps with the bass.<br>
-  -with these two components, the wired quality should be no different (if not, better) than a phone or a typical mp3 player.
+  - the audio from common microcontrollers are low quality and unenjoyable for music. So I used the PCM5102A. It is a high quality DAC which will be wired to the TPA6132ARTE. <br>
+  - the TPA6132ARTE increases the volume of the sound and also helps with the bass.<br>
+  - with these two components, the wired quality should be no different (if not, better) than a phone or a typical mp3 player.
 
 What about some safety features?
 
@@ -127,10 +127,10 @@ Well, since everyone can choose what lipo battery they will be using, I decided 
 
 NOTE: This file might be confusing. So heres some clarifications <br>
 
-  -QTY refers to the actual amount needed. Amount refers to the amount bought due to minimum purchase limits. For assortment kits, qty is just 1.
-  -Any item below the 45th row is not needed for this project (well they are). They are misc items that I don't have and I must put it down to get funding.
-  -The NRF 5340 DK dev board is not needed, you only need a pico or etc to serve as an external programmer. I need this because I need to debug my code after I recieve my parts (so yes, again, this is for funding purposes)
-  -shipping is done weirdly because I don't know how else to do it. However, you don't have to worry about that. There is a number on a seemingly random item that tells you the shipping price. Since alot of these items come from the same shop, the shipping is counted once. So items only have a shipping fee if it is the first on the list (by row) to have that specific shop.
+  - QTY refers to the actual amount needed. Amount refers to the amount bought due to minimum purchase limits. For assortment kits, qty is just 1.
+  - Any item below the 45th row is not needed for this project (well they are). They are misc items that I don't have and I must put it down to get funding.
+  - The NRF 5340 DK dev board is not needed, you only need a pico or etc to serve as an external programmer. I need this because I need to debug my code after I recieve my parts (so yes, again, this is for funding purposes)
+  - shipping is done weirdly because I don't know how else to do it. However, you don't have to worry about that. There is a number on a seemingly random item that tells you the shipping price. Since alot of these items come from the same shop, the shipping is counted once. So items only have a shipping fee if it is the first on the list (by row) to have that specific shop.
 [Music-player - Music-player (2).md](https://github.com/user-attachments/files/28941987/Music-player.-.Music-player.2.md)
 
 And additionally, you might be thinking "woah, why is this so expensive?!" <br>
