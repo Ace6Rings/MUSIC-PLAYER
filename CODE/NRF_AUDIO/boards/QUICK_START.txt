@@ -1,0 +1,157 @@
+#
+# CUSTOM HARDWARE QUICK START
+# ===========================
+#
+# Location: c:\Users\emath\nrf5340_audio_1\boards\
+#
+# FILES YOU CREATED:
+#
+# 1. custom_hardware.overlay         - Pin mappings & peripherals
+# 2. custom_hardware.conf            - Driver settings & features
+# 3. resistor_ladder_button_guide.txt - Electrical design guide
+# 4. CUSTOM_HARDWARE_README.txt      - Full implementation guide
+#
+#
+# TO BUILD WITH YOUR CUSTOM HARDWARE:
+# ====================================
+#
+# Option A: Quick test build
+# ---------------------------
+#
+#   west build -b nrf5340_audio_dk/nrf5340/cpuapp --pristine \
+#     --sysbuild \
+#     -- -DDTC_OVERLAY_FILE=boards/custom_hardware.overlay \
+#       -DCONF_FILE=prj.conf \
+#       -DEXTRA_CONF_FILE=broadcast_source/overlay-broadcast_source.conf \
+#       -DCONFIG_DEBUG_THREAD_INFO=y
+#
+#
+# Option B: Using VS Code nRF Connect extension
+# -----------------------------------------------
+#
+#   1. Open nRF Connect: Build
+#   2. Click "Add application" → select your workspace
+#   3. In build configuration, add:
+#
+#      Board: nrf5340_audio_dk/nrf5340/cpuapp
+#      Extra CMake arguments:
+#        -DDTC_OVERLAY_FILE=boards/custom_hardware.overlay
+#        -DCONF_FILE=prj.conf
+#        -DEXTRA_CONF_FILE=boards/custom_hardware.conf
+#
+#   4. Click Build
+#
+#
+# PIN ASSIGNMENTS AT A GLANCE:
+# ============================
+#
+# SPI1 for Display & SD Card:
+#   P1.02  = SCK (Clock)
+#   P0.09  = MOSI (Data Out)
+#   P1.03  = MISO (Data In)
+#   P0.13  = MSD_CS (MicroSD Chip Select)
+#   P1.05  = SST_CS (Display Chip Select)
+#   P1.08  = ST7789 DC (Data/Command)
+#   P0.24  = ST7789 RES (Reset)
+#
+# I2S0 for PCM5102A DAC (Audio):
+#   P0.16  = BCK (Bit Clock)
+#   P0.21  = LRCK (Left/Right Clock)
+#   P0.19  = DIN (Data to DAC)
+#
+# Analog Input for Buttons:
+#   P0.04  = AIN0 (Resistor Ladder Network)
+#
+# Amplifier Control:
+#   P0.25  = AMP_SHDN (Shutdown, active low)
+#   P0.26  = AMP_MUTE (Mute control)
+#
+# Power & Charging:
+#   P0.05  = BAT_CHG (Battery charger status)
+#   P0.06  = VBUS_DETECT (USB detection)
+#   P0.07  = BAT_SENSE (Battery voltage monitor)
+#   P0.28  = BTN_WAKE (Wake interrupt)
+#
+#
+# BUTTON CONFIGURATION (AIN0 Resistor Ladder):
+# =============================================
+#
+# Each button press creates a different voltage on AIN0 which the ADC reads:
+#
+#   Button Name      | Expected ADC Value | Resistor Value
+#   =========================================================
+#   BUTTON_VOLUME_DOWN   |    820         | 68kΩ to GND
+#   BUTTON_VOLUME_UP     |   1640         | 33kΩ to GND
+#   BUTTON_PLAY_PAUSE    |   2457         | 22kΩ to GND
+#   BUTTON_4             |   3277         | 15kΩ to GND
+#   BUTTON_5             |   4000         | 10kΩ to GND
+#
+# Main pull-up: 10kΩ from AIN0 to VCC
+# Decoupling: 100nF capacitor from AIN0 to GND
+#
+#
+# VERIFYING YOUR BUILD:
+# ====================
+#
+# After flashing, check these things:
+#
+# 1. Serial console appears (RTT or UART)
+# 2. Board initializes without errors
+# 3. Try pressing each button - you should see debug output
+# 4. Try reading files from /sdcard (if MicroSD plugged in)
+# 5. Audio output works if connected to PCM5102A
+#
+#
+# DEBUG OUTPUT EXAMPLES:
+# ======================
+#
+# When BUTTON_VOLUME_UP is pressed:
+#   [button_handler] DEBUG: Pushed analog button name: BUTTON_VOLUME_UP
+#   [button_handler] DEBUG: ADC reading: 1640
+#
+# When MicroSD is detected:
+#   [sd] INF: SD card detected
+#   [fs] INF: Mounted /sdcard
+#
+# When audio is configured:
+#   [audio_system] INF: Audio engine initialized
+#   [i2s] INF: I2S0 configured for PCM output
+#
+#
+# CUSTOMIZING FOR YOUR PCB:
+# ==========================
+#
+# If your actual hardware differs:
+#
+# 1. Update pin assignments in custom_hardware.overlay
+#    (Find "NRF_PSEL" lines and change pin numbers)
+#
+# 2. Adjust button resistor values in resistor_ladder_button_guide.txt
+#    (Recalculate ADC thresholds based on new resistors)
+#
+# 3. Update button_assignments.h with measured ADC values
+#    (Measure actual ADC readings when buttons pressed)
+#
+# 4. Rebuild with --pristine flag to ensure clean configuration
+#
+#
+# NOTES:
+# ======
+#
+# - The overlay and conf files work with the existing nrf5340_audio_dk board
+# - No separate board definition is needed yet (reusing default)
+# - Button handler already supports analog input (was built in)
+# - All peripherals (SPI, I2S, ADC, GPIO) are preconfigured
+# - Adjust CONFIG_BUTTON_DEBOUNCE_MS if buttons feel sluggish
+#
+#
+# NEXT STEPS:
+# ===========
+#
+# 1. Review CUSTOM_HARDWARE_README.txt for full details
+# 2. Review resistor_ladder_button_guide.txt for hardware assembly
+# 3. Build with west build command above
+# 4. Flash to device with west flash
+# 5. Open serial console and verify everything works
+# 6. Adjust button thresholds if needed based on measured ADC values
+#
