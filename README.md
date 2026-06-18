@@ -108,17 +108,19 @@ If you want to know how to build this physically, then heres a simple guide.
 
 Thankfully, you don't need to do much at all! (assuming your pcb is already assembled. If not, good luck)
 
-<img width="1700" height="2200" alt="INSTRUCTION DIAGRAM-1" src="https://github.com/user-attachments/assets/c677df08-699e-485e-8b73-c2ebc4cabdd6" />
+<img width="1700" height="2200" alt="INSTRUCTION DIAGRAM (1)-1" src="https://github.com/user-attachments/assets/0ad3154b-53d6-4993-8456-bf4ef15ee2d3" />
+
 
 Just follow the steps in order!
 
 1.Grab a soldering iron to put heat set inserts into the hole that label 1 is indicating. This is OPTIONAL, but you will need to adjust the cad to make it 2mm instead of 3mm.<br>
 2.Screw in the screws as indicated in Label 1. There is only two holes but four mounts. Make sure to orientate it correctly! (the ports should line up with the case)<br>
-4.Put the ANO encoder into the cutout as indicated in Label 3.<br>
-5.Put the cover onto the ANO encoder as indicated in Label 4.<br>
-6.Screw it both in as indicated in Label 5.<br>
+3.Put the battery inside the two walls as indicated in label 2. Since everyone's printers are different, you will likely have to sand it. You can put double sided tape or velcro to secure the battery further, but otherwise, it should be fine. <br>
+4.Put the ANO encoder into the cutout as indicated in Label 4.<br>
+5.Put the cover onto the ANO encoder as indicated in Label 5.<br>
+6.Screw it both in as indicated in Label 6.<br>
 6.Use the JST compatible wires and connect them to the PCB.<br>
-7.Do the same thing you just did to the ANO encoder in step 3. Instead, this time, you'll apply the same principle to the screen in Label 6, 7, and 8.<br>
+7.Do the same thing you just did to the ANO encoder in step 3. Instead, this time, you'll apply the same principle to the screen in Label 7, 8, and 9.<br>
 NOTE: If you are unconfident in your soldering abilities, especially for the screen, you may adjust the "leeway" variable under "screen" folder and then the "mount" subfolder. The default is 2mm, do not go past 2.1mm. You may lower it if you want to, but the default should be ok. In addition, it is not reccomended to use the included pin headers for the screen, just solder the wire directly. The cover will hide any cosmetic issues.<br>
 
 Hey! What about the battery? <br>
