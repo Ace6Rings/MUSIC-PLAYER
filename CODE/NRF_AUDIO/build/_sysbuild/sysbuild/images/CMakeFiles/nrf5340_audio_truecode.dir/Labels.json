@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/emath/Downloads/nrf5340_audio_truecode/build/_sysbuild/sysbuild/images/CMakeFiles/nrf5340_audio_truecode"
+		},
+		{
+			"file" : "C:/Users/emath/Downloads/nrf5340_audio_truecode/build/_sysbuild/sysbuild/images/CMakeFiles/nrf5340_audio_truecode.rule"
+		},
+		{
+			"file" : "C:/Users/emath/Downloads/nrf5340_audio_truecode/build/_sysbuild/sysbuild/images/CMakeFiles/nrf5340_audio_truecode-complete.rule"
+		},
+		{
+			"file" : "C:/Users/emath/Downloads/nrf5340_audio_truecode/build/_sysbuild/sysbuild/images/nrf5340_audio_truecode-prefix/src/nrf5340_audio_truecode-stamp/nrf5340_audio_truecode-build.rule"
+		},
+		{
+			"file" : "C:/Users/emath/Downloads/nrf5340_audio_truecode/build/_sysbuild/sysbuild/images/nrf5340_audio_truecode-prefix/src/nrf5340_audio_truecode-stamp/nrf5340_audio_truecode-configure.rule"
+		},
+		{
+			"file" : "C:/Users/emath/Downloads/nrf5340_audio_truecode/build/_sysbuild/sysbuild/images/nrf5340_audio_truecode-prefix/src/nrf5340_audio_truecode-stamp/nrf5340_audio_truecode-download.rule"
+		},
+		{
+			"file" : "C:/Users/emath/Downloads/nrf5340_audio_truecode/build/_sysbuild/sysbuild/images/nrf5340_audio_truecode-prefix/src/nrf5340_audio_truecode-stamp/nrf5340_audio_truecode-install.rule"
+		},
+		{
+			"file" : "C:/Users/emath/Downloads/nrf5340_audio_truecode/build/_sysbuild/sysbuild/images/nrf5340_audio_truecode-prefix/src/nrf5340_audio_truecode-stamp/nrf5340_audio_truecode-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/emath/Downloads/nrf5340_audio_truecode/build/_sysbuild/sysbuild/images/nrf5340_audio_truecode-prefix/src/nrf5340_audio_truecode-stamp/nrf5340_audio_truecode-patch.rule"
+		},
+		{
+			"file" : "C:/Users/emath/Downloads/nrf5340_audio_truecode/build/_sysbuild/sysbuild/images/nrf5340_audio_truecode-prefix/src/nrf5340_audio_truecode-stamp/nrf5340_audio_truecode-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nrf5340_audio_truecode"
+		],
+		"name" : "nrf5340_audio_truecode"
+	}
+}
