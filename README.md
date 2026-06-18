@@ -119,7 +119,8 @@ Just follow the steps in order!
 7.Do the same thing you just did to the ANO encoder in step 3. Instead, this time, you'll apply the same principle to the screen in Label 6, 7, and 8.<br>
 NOTE: If you are unconfident in your soldering abilities, especially for the screen, you may adjust the "leeway" variable under "screen" folder and then the "mount" subfolder. The default is 2mm, do not go past 2.1mm. You may lower it if you want to, but the default should be ok. In addition, it is not reccomended to use the included pin headers for the screen, just solder the wire directly. The cover will hide any cosmetic issues.<br>
 
-
+Hey! What about the battery? <br>
+Well, since everyone can choose what lipo battery they will be using, I decided to make the battery area an open space. All you have to do is take a small piece of double sided tape (which many other commericial products do!) and tape the battery to the case. 
 
 
 # BOM
