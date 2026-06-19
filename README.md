@@ -65,9 +65,10 @@ Pretty much the same right? this means that my design is sound and could be used
 
 The backend of the code is built entirely by NORDIC, the company behind the NRF chips. I used their existing audio code so that I don't need to code my own (they have tens of thousands of lines of code)
 
-The GUI is a WIP. I will do it after the PCB arrives so I can mess around with the settings. As of right now, only audio playing is implemented.
+The gui and function is limited because I have not recieved my pcb yet, and won't know what will happen if i implement something more than audio playback and some config files. This will change once I get my pcb.
 
-NOTE THAT THE FILE IS ZIPPED BECAUSE ITS CMAKE AND THERES ALOT OF FILES. OPEN WITH VS CODE AND HAVE THE NRF CONNECT EXTENSION INSTALLED. DISABLE CMAKE!
+Also note that the vast majority of the code is by NORDIC and their open source templates. All I did was make config files.
+
 
 # Process
 
