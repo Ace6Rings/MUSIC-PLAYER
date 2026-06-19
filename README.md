@@ -39,7 +39,7 @@ I have 2 layers of protection.
   To prevent any damage, I used mosfets which prevents both of them from turning on at the same time.<br>
   Additionally, I used the PRTR5V0U2X. It is a tvs diode which can prevent damage to the usbc and the board if something goes horribly wrong.
 
-The rest of the electronics can be found in the electronics subdirectory. You can also find the production files there too.
+The rest of the electronics can be found in the electronics subdirectory. You can also find the production files there too. For the reviewer, make sure to read the mini readme in the electronics directory.
 <img width="2547" height="3296" alt="step 1 (2)" src="https://github.com/user-attachments/assets/80affd2f-d546-4a83-a986-221c5e95ff83" />
 
 ## Mechanical
@@ -62,7 +62,7 @@ Pretty much the same right? this means that my design is sound and could be used
 
 
 ## Code
-
+### MAKE SURE TO READ THE CORRESPONDING README INCLUDED IN THE CODE DIRECTORY TO ACTUALLY BUILD IT.
 The backend of the code is built entirely by NORDIC, the company behind the NRF chips. I used their existing audio code so that I don't need to code my own (they have tens of thousands of lines of code)
 
 The gui and function is limited because I have not recieved my pcb yet, and won't know what will happen if i implement something more than audio playback and some config files. This will change once I get my pcb.
