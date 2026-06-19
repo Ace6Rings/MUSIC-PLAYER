@@ -9,4 +9,6 @@ You will likely run the drc and find errors about the courtyard for the crystal.
 
 Silkscreen labels for important/unique components are included. Since its so dense, I did not include any for passive components.
 
+Some silkscreen for the MSD-4-A, the SJ-43514, and the jst connector are deleted. That is why there is a warning for it not matching the footprint library. It is purely cosmetic and won't have any problems during assembly.
+
 
