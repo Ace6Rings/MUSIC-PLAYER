@@ -1,6 +1,6 @@
 # NOIR MUSIC PLAYER
+<img width="1410" height="2000" alt="Noir Music Player (3)" src="https://github.com/user-attachments/assets/7e8188e0-ecdc-4168-8250-7d6987b077b6" />
 
-<img width="1410" height="2000" alt="Noir Music Player (2)" src="https://github.com/user-attachments/assets/15b08242-9ec1-4b79-b299-acfce3fe6911" />
 
 
 
